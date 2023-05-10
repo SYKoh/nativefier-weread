@@ -1,0 +1,15 @@
+docker run --rm -v /Users/sykoh/Desktop/weread:/target/ nativefier/nativefier --name "weread" --icon /target/weread.icns --platform mac --arch x64 https://weread.qq.com/ /target/
+
+
+
+docker run --rm -v 
+~/my-icons-folder/:/src -v 
+$TARGET-PATH:/target nativefier/nativefier 
+--icon /src/icon.png 
+--name whatsApp 
+-p linux 
+-a x64 https://web.whatsapp.com/ /target/
+
+docker run --rm -v 
+~/nativefier-apps:/target/ nativefier/nativefier 
+https://mail.google.com/ /target/
